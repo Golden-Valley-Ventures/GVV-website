@@ -1,0 +1,19 @@
+.orbitContainer {
+  position: relative;
+  max-width: 720px;
+  margin: 0 auto 64px;
+  aspect-ratio: 1 / 1;
+}
+
+.mobileGrid {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .orbitContainer {
+    display: none;
+  }
+  .mobileGrid {
+    display: block;
+  }
+}
