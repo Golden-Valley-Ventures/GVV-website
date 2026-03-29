@@ -2,18 +2,18 @@
 
 import { useState, useEffect } from "react";
 
-import Navigation from "@/components/Navigation";
-import Hero from "@/components/Hero";
-import BrandThesis from "@/components/BrandThesis";
-import EcosystemOverview from "@/components/EcosystemOverview";
-import CoreDomains from "@/components/CoreDomains";
-import AGIntelSpotlight from "@/components/AGIntelSpotlight";
-import OperatingModel from "@/components/OperatingModel";
-import Philosophy from "@/components/Philosophy";
-import Impact from "@/components/Impact";
-import Initiatives from "@/components/Initiatives";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+import Navigation from "../Navigation";
+import Hero from "../Hero";
+import BrandThesis from "../BrandThesis";
+import EcosystemOverview from "../EcosystemOverview";
+import CoreDomains from "../CoreDomains";
+import AGIntelSpotlight from "../AGIntelSpotlight";
+import OperatingModel from "../OperatingModel";
+import Philosophy from "../Philosophy";
+import Impact from "../Impact";
+import Initiatives from "../Initiatives";
+import Contact from "../Contact";
+import Footer from "../Footer";
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false);
